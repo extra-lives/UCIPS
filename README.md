@@ -16,7 +16,7 @@ A small Windows-friendly desktop utility that shows your internal and external I
   - `pystray`
   - `Pillow`
 
-## Install
+## Quick Install
 
 ```bash
 pip install pystray Pillow
@@ -27,6 +27,15 @@ pip install pystray Pillow
 ```bash
 python main.py
 ```
+
+## Quick Compile (Windows .exe)
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --noconsole --name ucips main.py
+```
+
+The executable will be in `dist/ucips.exe`.
 
 ## Notes
 
